@@ -1,6 +1,6 @@
-@building-fill: #d9d0c9;  // Lch(84, 5, 68)
-@building-line: darken(@building-fill, 15%);  // Lch(70, 9, 66)
-@building-low-zoom: darken(@building-fill, 4%);
+@building-fill: white;  // Lch(84, 5, 68)
+@building-line: black;  // Lch(70, 9, 66)
+@building-low-zoom: grey;
 
 @building-major-fill: darken(@building-fill, 10%);  // Lch(75, 8, 67)
 @building-major-line: darken(@building-major-fill, 15%);  // Lch(61, 13, 65)
@@ -12,28 +12,10 @@
 
 #buildings {
   [zoom >= 14] {
-    polygon-fill: @building-low-zoom;
-    polygon-clip: false;
-    [zoom >= 15] {
-      polygon-fill: @building-fill;
-      line-color: @building-line;
-      line-width: .75;
-      line-clip: false;
-    }
-    [amenity = 'place_of_worship'],
-    [aeroway = 'terminal'],
-    [aerialway = 'station'],
-    [building = 'train_station'],
-    [public_transport = 'station'] {
-      polygon-fill: @building-major-z14;
-      [zoom >= 15] {
-        polygon-fill: @building-major-z15;
-        line-color: @building-major-line;
-        [zoom >= 16] {
-          polygon-fill: @building-major-fill;
-        }
-      }
-    }
+    polygon-fill: @building-fill;
+    line-color: @building-line;
+    line-width: 1.5;
+    line-clip: false;
   }
 }
 

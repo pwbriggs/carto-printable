@@ -3102,7 +3102,7 @@
       }
     }
     [natural = 'tree'] {
-      marker-fill: darken(@forest,10%);
+      marker-fill: #999;
       marker-allow-overlap: true;
       marker-line-width: 0;
       marker-ignore-placement: true;
@@ -3129,7 +3129,7 @@
   [natural = 'tree']::trunk {
     [zoom >= 18] {
       trunk/opacity: 0.4;
-      trunk/marker-fill: #6b8d5e; // Same opacity and color as forest svg patterns
+      trunk/marker-fill: black;
       trunk/marker-allow-overlap: true;
       trunk/marker-line-width: 0;
       trunk/marker-width: 2;

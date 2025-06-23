@@ -19,17 +19,17 @@ classes:
   # Colours for output into the MSS file
   mss:
     fill:
-      lightness: [70, 97]
-      chroma: [35, 29]
+      lightness: [10, 90]
+      chroma: [10, 10]
     casing:
       lightness: [50, 50]
-      chroma: [70, 55]
+      chroma: [10, 10]
     low-zoom:
       lightness: [62, 92]
-      chroma: [50, 40]
+      chroma: [10, 10]
     low-zoom-casing:
       lightness: [50, 70]
-      chroma: [50, 65]
+      chroma: [10, 10]
     shield:
       lightness: [20, 25]
       chroma: [40, 42]

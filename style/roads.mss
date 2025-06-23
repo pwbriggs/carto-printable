@@ -1,13 +1,13 @@
 /* For the main linear features, such as roads and railways. */
 
 @tertiary-fill: #ffffff;
-@residential-fill: #ffffff;
+@residential-fill: #ddd;
 @service-fill: @residential-fill;
 @living-street-fill: #ededed;
 @pedestrian-fill: #dddde8;
 @raceway-fill: #ffc0cb;
 @road-fill: #ddd;
-@footway-fill: salmon;
+@footway-fill: black;
 @footway-fill-noaccess: #bbbbbb;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #bbbbbb;
@@ -31,7 +31,7 @@
 
 @default-casing: white;
 @tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@residential-casing: black;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
